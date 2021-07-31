@@ -32,7 +32,7 @@ One of the biggest benefit of contributing to Open Source project is you get the
 You can easily join an open source project by subscribing to the mailing list for that project. You can find mailing lists on official websites or on GitHub pages. After being accepted to the list, you can communicate with team members and get support if necessary. Thanks to the vibrant communities present in nearly every OSS project, you are likely to get quick replies to your questions.
 
 ## Code Version Control
-Mastering [Git](https://git-scm.com) - one of the most popular version control tools (also known as revision control tools). 
+Mastering [Git](https://git-scm.com) -
 one of the most popular version control tools (also known as revision control tools). Because developers constantly make changes to their code, they need a system that can manage those changes in a central repository. In this way, everyone involved in the development process can download a given piece of software, make changes, and submit updates.
 
 ## Code Language Skills
