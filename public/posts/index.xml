@@ -47,7 +47,7 @@ one of the most popular version control tools (also known as revision control to
 <h4 id="go---code-language-skills">Go - Code Language Skills</h4>
 <p>You can learn more tips for learning Go in my <a href="https://darkodjalevski.me/posts/tips-for-learning-go/" title="Go Tips &amp; Tricks for learning">Post</a></p>
 <h2 id="tools--helpers">Tools &amp; Helpers</h2>
-<p>You need to explore the tools,helpers and etc which helps the developers to make less common code, style and structure mistakes</p>
+<p>You need to explore the tools, helpers and et cetera which helps the developers to make less common code, style and structure mistakes</p>
 <h4 id="go---tools--helpers">Go - Tools &amp; Helpers</h4>
 <p>All of referenced tools &amp; helpers are used across the all OSS Projects written in Go.</p>
 <ul>
@@ -65,6 +65,7 @@ one of the most popular version control tools (also known as revision control to
 <li>Running the project local is very important step before you start to change/add anything.</li>
 <li>General Go app structure -  <a href="https://darkodjalevski.me/posts/go-application-structure-error-handling/">GenGo Structure</a></li>
 <li>Explore the external libraries that are used in the project.</li>
+<li>Explore the issues of the project and try to help some issue to be resolved.</li>
 </ul>
 <p><br>
 <br>
