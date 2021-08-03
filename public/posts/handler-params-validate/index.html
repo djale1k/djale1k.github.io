@@ -26,7 +26,7 @@
 
 
 
-<link rel="stylesheet" href="/main.171f5b91b00cde3fe9904815b64ccd0fc8df8a7dcceae78fa1e953bbb6f502e2.css">
+<link rel="stylesheet" href="/main.a9e36ddaed6ab756f7a71da5742e5920c114856ad6ffa696f3dd530ae196e9f2.css">
 
 
 
@@ -45,6 +45,7 @@
 <meta name="twitter:title" content="Custom API Calls params validator with go validator"/>
 <meta name="twitter:description" content="This custom validator is made with my best friend and coding buddy Gligor - link to his github account, his personal blog
 1. Custom ValidationError Structure file.  First we need to create our custom ValidationError structure  // ValidationError represents custom validation error structure // using this error when validating request body type ValidationError struct { Message string `json:&#34;message&#34;` Errors map[string]string `json:&#34;errors,omitempty&#34;` ValidationErrors validator.ValidationErrors `json:&#34;-&#34;` } Care we need to use go validator v10 - github."/>
+
 
 
 
@@ -71,9 +72,14 @@
 
 
 
+
+
     </head>
 
-    <body class="dark-theme">
+    
+        <body>
+    
+    
         <div class="container">
             <header class="header">
     <span class="header__inner">
@@ -95,7 +101,7 @@
         <span class="header__right">
             
                 <nav class="menu">
-    <ul class="menu__inner"><li><a href="https://darkodjalevski.me/about/">About</a></li><li><a href="https://darkodjalevski.me/posts/">Posts</a></li>
+    <ul class="menu__inner"><li><a href="/about/">About</a></li><li><a href="/posts/">Posts</a></li>
     </ul>
 </nav>
 
@@ -106,13 +112,6 @@
                     </svg>
                 </span>
             
-
-            <span class="theme-toggle unselectable"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
-  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
-  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
-</svg>
-</span>
         </span>
     </span>
 </header>
@@ -138,6 +137,10 @@
       <h1 class="post-title">
         <a href="https://darkodjalevski.me/posts/handler-params-validate/">Custom API Calls params validator with go validator</a>
       </h1>
+
+      
+
+      
 
       
 
@@ -435,34 +438,35 @@
       </div>
 
     
-      <div class="pagination">
+    <div class="pagination">
         <div class="pagination__title">
-          <span class="pagination__title-h">Read other posts</span>
-          <hr />
+            <span class="pagination__title-h">Read other posts</span>
+            <hr />
         </div>
 
         <div class="pagination__buttons">
-          
+            
             <span class="button previous">
-              <a href="https://darkodjalevski.me/posts/go-client-for-apache-kafka/">
-                <span class="button__icon">←</span>
-                <span class="button__text">Go &amp; Apache Kafka</span>
-              </a>
+                <a href="https://darkodjalevski.me/posts/go-client-for-apache-kafka/">
+                    <span class="button__icon">←</span>
+                    <span class="button__text">Go &amp; Apache Kafka</span>
+                </a>
             </span>
-          
+            
 
-          
+            
             <span class="button next">
-              <a href="https://darkodjalevski.me/posts/go-application-structure-error-handling/">
-                <span class="button__text">Go application architecture and error handling</span>
-                <span class="button__icon">→</span>
-              </a>
+                <a href="https://darkodjalevski.me/posts/go-application-structure-error-handling/">
+                    <span class="button__text">Go application architecture and error handling</span>
+                    <span class="button__icon">→</span>
+                </a>
             </span>
-          
+            
         </div>
-      </div>
-    
+    </div>
 
+
+    
 
     
 
@@ -472,21 +476,8 @@
 
             
                 <footer class="footer">
-    <div class="footer__inner">
-        <div class="footer__content">
-            <span>&copy; 2021</span>
-            
-            
-                <span>Darko Djalevski</span>
-            <span><a href="https://darkodjalevski.me/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></span>
-        </div>
-    </div>
-    <div class="footer__inner">
-        <div class="footer__content">
-            <span><a></a></span>
-            <span><a></a></span>
-          </div>
-    </div>
+    
+    
 </footer>
 
             
@@ -496,8 +487,7 @@
 
 
 
-
-<script type="text/javascript" src="/bundle.min.a0f363fdf81cdc5cfacc447a79c33189eb000d090336cd04aac8ee256f423b3133b836c281944c19c75e38d0b0b449f01ce5807e37798b7ac94ac1db51983fc4.js" integrity="sha512-oPNj/fgc3Fz6zER6ecMxiesADQkDNs0EqsjuJW9COzEzuDbCgZRMGcdeONCwtEnwHOWAfjd5i3rJSsHbUZg/xA=="></script>
+<script type="text/javascript" src="/bundle.min.599099f1f14b78b657d524b28e10e0c5098e7cd46e9c7aed73d577068a276c3ff1bb234cbf29cb313333e83cf411727b43157c91ce5b809e2ffc81664614608e.js" integrity="sha512-WZCZ8fFLeLZX1SSyjhDgxQmOfNRunHrtc9V3BoonbD/xuyNMvynLMTMz6Dz0EXJ7QxV8kc5bgJ4v/IFmRhRgjg=="></script>
 
 
 

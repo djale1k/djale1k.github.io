@@ -1,63 +1,496 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Posts on Darko Djalevski</title>
-    <link>https://darkodjalevski.me/posts/</link>
-    <description>Recent content in Posts on Darko Djalevski</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>Darko Djalevski</copyright>
-    <lastBuildDate>Sun, 02 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://darkodjalevski.me/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Contribute to Open Source Project for begginers</title>
-      <link>https://darkodjalevski.me/posts/contribute-to-open-source/</link>
-      <pubDate>Sun, 02 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://darkodjalevski.me/posts/contribute-to-open-source/</guid>
-      <description>What is open source software? Open source software is software with source code that anyone can inspect, modify, and enhance.
+    <channel>
+        <title>Posts on Darko Djalevski</title>
+        <link>https://darkodjalevski.me/posts/</link>
+        <description>Recent content in Posts on Darko Djalevski</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <copyright>Darko Djalevski</copyright>
+        <lastBuildDate>Sun, 02 May 2021 00:00:00 +0000</lastBuildDate>
+        <atom:link href="https://darkodjalevski.me/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Contribute to Open Source Project for begginers</title>
+            <link>https://darkodjalevski.me/posts/contribute-to-open-source/</link>
+            <pubDate>Sun, 02 May 2021 00:00:00 +0000</pubDate>
+            
+            <guid>https://darkodjalevski.me/posts/contribute-to-open-source/</guid>
+            <description>What is open source software? Open source software is software with source code that anyone can inspect, modify, and enhance.
 &amp;ldquo;Source code&amp;rdquo; is the part of software that most computer users don&amp;rsquo;t ever see; it&amp;rsquo;s the code computer programmers can manipulate to change how a piece of software—a &amp;ldquo;program&amp;rdquo; or &amp;ldquo;application&amp;rdquo;—works. Programmers who have access to a computer program&amp;rsquo;s source code can improve that program by adding features to it or fixing parts that don&amp;rsquo;t always work correctly.</description>
-    </item>
-    
-    <item>
-      <title>Go &amp; Apache Kafka</title>
-      <link>https://darkodjalevski.me/posts/go-client-for-apache-kafka/</link>
-      <pubDate>Tue, 23 Feb 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://darkodjalevski.me/posts/go-client-for-apache-kafka/</guid>
-      <description>Kafka Go Client Installation There are a few go-kafka clients but i prefer the client from confluent
+            <content type="html"><![CDATA[<h2 id="what-is-open-source-software">What is open source software?</h2>
+<p>Open source software is software with source code that anyone can inspect, modify, and enhance.</p>
+<p>&ldquo;Source code&rdquo; is the part of software that most computer users don&rsquo;t ever see; it&rsquo;s the code computer programmers can manipulate to change how a piece of software—a &ldquo;program&rdquo; or &ldquo;application&rdquo;—works. Programmers who have access to a computer program&rsquo;s source code can improve that program by adding features to it or fixing parts that don&rsquo;t always work correctly.</p>
+<h2 id="why-contribute-to-open-source-projects">Why contribute to open source projects?</h2>
+<h3 id="there-are-a-number-of-reasons-to-contribute-to-oss-open-source-software">There are a number of reasons to contribute to OSS (open-source software).</h3>
+<p>There are a lot of enthusiasts who simply believe that code should be open. They&rsquo;re idealists who want to make the world a better place, and it drives them to contribute code. The desire to share can be a powerful motivator.</p>
+<p>For beginners might start by fixing minor things, such as a bug in a library,
+sending a pull request,
+or even writing a piece of documentation.
+However, beginner developers can also learn to write so-called &ldquo;clean code&rdquo;
+code that is readable and maintainable – while contributing to open source projects.
+When developers realize that their code is exposed to the world,
+it makes them focus on making that code easy to understand and support.
+Programmers stick to generally accepted rules within
+a team, which include norms for indents,
+descriptions of methods and classes, variable names, and following the don&rsquo;t-repeat-yourself rule. In a nutshell, when contributing to free projects you&rsquo;re obliged to conform to the norms of a project.</p>
+<p>One of the biggest benefit of contributing to Open Source project is you get the chance to be part of an active open source community where you can meet like-minded people and supporters. Moreover, if you&rsquo;re a freelancer and actively contribute to open source projects, you increase your chances of being noticed by potential employers.</p>
+<h2 id="----------the-must-takeover-steps-before-start----------">&mdash;&mdash;&mdash; The must takeover steps before start &mdash;&mdash;&mdash;</h2>
+<pre><code>Since I'm Go Developer I will reference more info about Go stuff in each step
+</code></pre>
+<h2 id="explore-and-join-the-community">Explore and join the community</h2>
+<p>You can easily join an open source project by subscribing to the mailing list for that project. You can find mailing lists on official websites or on GitHub pages. After being accepted to the list, you can communicate with team members and get support if necessary. Thanks to the vibrant communities present in nearly every OSS project, you are likely to get quick replies to your questions.</p>
+<h2 id="code-version-control">Code Version Control</h2>
+<p>Mastering <a href="https://git-scm.com">Git</a> -
+one of the most popular version control tools (also known as revision control tools). Because developers constantly make changes to their code, they need a system that can manage those changes in a central repository. In this way, everyone involved in the development process can download a given piece of software, make changes, and submit updates.</p>
+<h2 id="code-language-skills">Code Language Skills</h2>
+<p>You must master the concepts of the given language you are learning &amp; coding in.</p>
+<h4 id="go---code-language-skills">Go - Code Language Skills</h4>
+<p>You can learn more tips for learning Go in my <a href="https://darkodjalevski.me/posts/tips-for-learning-go/" title="Go Tips &amp; Tricks for learning">Post</a></p>
+<h2 id="tools--helpers">Tools &amp; Helpers</h2>
+<p>You need to explore the tools, helpers and et cetera which helps the developers to make less common code, style and structure mistakes</p>
+<h4 id="go---tools--helpers">Go - Tools &amp; Helpers</h4>
+<p>All of referenced tools &amp; helpers are used across the all OSS Projects written in Go.</p>
+<ul>
+<li><a href="https://staticcheck.io">Staticcheck</a> - staticcheck is advanced go-linter</li>
+<li><a href="https://github.com/golang/lint">Go Linter</a> - Golint is a linter for Go source code.</li>
+<li><a href="https://github.com/kisielk/errcheck">Err Check</a> - Errcheck is a program for checking for unchecked errors in Go programs.</li>
+<li><a href="https://github.com/securego/gosec">Go Sec</a> - Inspects source code for security problems by scanning the Go AST.</li>
+<li>Various pkgs for writing and executing unit/integration tests (suite,testify,httpexpect,gomock&hellip;)</li>
+</ul>
+<h2 id="structure-of-projects">Structure of Projects</h2>
+<p>It&rsquo;s open software so it&rsquo;s open-minded - that means you need to expect to explore very diffrent and unique structure of projects.</p>
+<ul>
+<li>So first step is to explore the structure of the project.</li>
+<li>ask the community for any questions you have.</li>
+<li>Running the project local is very important step before you start to change/add anything.</li>
+<li>General Go app structure -  <a href="https://darkodjalevski.me/posts/go-application-structure-error-handling/">GenGo Structure</a></li>
+<li>Explore the external libraries that are used in the project.</li>
+<li>Explore the issues of the project and try to help some issue to be resolved.</li>
+</ul>
+<p><br>
+<br>
+<strong>References:</strong></p>
+<ul>
+<li>
+<p><a href="https://opensource.com/resources/what-open-source">Open Source Software</a></p>
+</li>
+<li>
+<p><a href="https://github.com/gobuild/awesome-go-tools">Awesome Go Tools</a></p>
+</li>
+</ul>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Go &amp; Apache Kafka</title>
+            <link>https://darkodjalevski.me/posts/go-client-for-apache-kafka/</link>
+            <pubDate>Tue, 23 Feb 2021 00:00:00 +0000</pubDate>
+            
+            <guid>https://darkodjalevski.me/posts/go-client-for-apache-kafka/</guid>
+            <description>Kafka Go Client Installation There are a few go-kafka clients but i prefer the client from confluent
 The Go client, called confluent-kafka-go, is distributed viaGitHub andgopkg.in to pin to specific versions. The Go client uses librdkafka, the C client, internally and exposes it as Go library usingcgo. No separate installation of librdkafka is required for the supported platforms (Linux (glibc and musl based), and Mac OSX).
 For other platforms the following instructions still apply: To install the Go client, first installthe C client including its development package as well as a C build toolchain including pkg-config.</description>
-    </item>
-    
-    <item>
-      <title>Custom API Calls params validator with go validator</title>
-      <link>https://darkodjalevski.me/posts/handler-params-validate/</link>
-      <pubDate>Fri, 27 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://darkodjalevski.me/posts/handler-params-validate/</guid>
-      <description>This custom validator is made with my best friend and coding buddy Gligor - link to his github account, his personal blog
+            <content type="html"><![CDATA[<h2 id="kafka-go-client-installation">Kafka Go Client Installation</h2>
+<p>There are a few go-kafka clients but i prefer the client from confluent</p>
+<p>The Go client, called confluent-kafka-go, is distributed via<a href="https://github.com/confluentinc/confluent-kafka-go"> GitHub</a> and<a href="http://labix.org/gopkg.in"> gopkg.in</a> to pin to specific versions. The Go client uses librdkafka, the C client, internally and exposes it as Go library using<a href="https://golang.org/cmd/cgo/"> cgo</a>. No separate installation of librdkafka is required for the supported platforms (Linux (glibc and musl based), and Mac OSX).</p>
+<p>For other platforms the following instructions still apply: To install the Go client, first install<a href="https://docs.confluent.io/clients-librdkafka/current/index.html"> the C client</a> including its development package as well as a C build toolchain including pkg-config.</p>
+<p>On Debian-based distributions, install the following in addition to librdkafka:</p>
+<pre><code>sudo apt-get install build-essential pkg-config git
+</code></pre><p>On macOS using<a href="http://brew.sh/"> Homebrew</a>, install the following:</p>
+<pre><code>brew install pkg-config git
+</code></pre><p>Next, use <code>go get</code> to install the library:</p>
+<pre><code>go get github.com/confluentinc/confluent-kafka-go/kafka
+
+</code></pre><h2 id="hello-world-go-kafka-client">Hello world go kafka client</h2>
+<p>For Hello World examples of Kafka clients in Go, see<a href="https://docs.confluent.io/platform/current/tutorials/examples/clients/docs/go.html#client-examples-go"> Go-Kafka</a>. there you can find examples including a producer and consumer that can connect to any Kafka cluster running on-premises or in Confluent Cloud, And play with some produced messages and consuming them.</p>
+<h2 id="kafka-producer">Kafka Producer</h2>
+<h2 id="idempotent-producer">Idempotent Producer</h2>
+<p>Let’s first talk about the main problem of event-produce-consume systems idempotency which is not the case in Apache Kafka because they have their own system for idempotent producers or as they say “Idempotency is the second name of Kafka”. It&rsquo;s a very easy solution. To stop processing a message multiple times, it must be persisted to the Kafka topic only once. During initialisation, unique ID gets assigned to the producer, which is called producer ID or PID.</p>
+<p>PID and a sequence number is bundled together with the message and sent to the broker. As sequence number starts from zero and is monotonically increasing, a Broker will only accept the message if the sequence number of the message is exactly one greater than the last committed message from that PID/TopicPartition pair. When it is not the case, the producer resends the message.</p>
+<h2 id="initialization-of-kafka-producer">Initialization of Kafka Producer</h2>
+<p>Initialization of producer is very easy,  you just need to call the NewProducer function.</p>
+<p>The <code>NewProducer()</code> function expects a go map which is called <code>ConfigMap</code> where you can put your keys and values.</p>
+<p>Since** Go**, object-oriented patterns are useful for structuring a program in a clear and understandable way, the part with mapping the Config is that I don’t prefere and I hope they will structure the Config in next versions.</p>
+<p>Example of initialization</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Go" data-lang="Go"><span style="color:#f92672">import</span> (
+    <span style="color:#e6db74">&#34;github.com/confluentinc/confluent-kafka-go/kafka&#34;</span>
+)
+
+<span style="color:#a6e22e">p</span>, <span style="color:#a6e22e">err</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">kafka</span>.<span style="color:#a6e22e">NewProducer</span>(<span style="color:#f92672">&amp;</span><span style="color:#a6e22e">kafka</span>.<span style="color:#a6e22e">ConfigMap</span>{
+    <span style="color:#e6db74">&#34;bootstrap.servers&#34;</span>: <span style="color:#e6db74">&#34;host1:9092,host2:9092&#34;</span>,
+    <span style="color:#e6db74">&#34;client.id&#34;</span>: <span style="color:#a6e22e">socket</span>.<span style="color:#a6e22e">gethostname</span>(),
+    <span style="color:#e6db74">&#34;acks&#34;</span>: <span style="color:#e6db74">&#34;all&#34;</span>})
+
+<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">err</span> <span style="color:#f92672">!=</span> <span style="color:#66d9ef">nil</span> {
+    <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Printf</span>(<span style="color:#e6db74">&#34;Failed to create producer: %s\n&#34;</span>, <span style="color:#a6e22e">err</span>)
+    <span style="color:#a6e22e">os</span>.<span style="color:#a6e22e">Exit</span>(<span style="color:#ae81ff">1</span>)
+}
+</code></pre></div><h2 id="asynchronous-writes">Asynchronous Writes</h2>
+<p>In Go, you initiate a send by calling the <code>Produce()</code> method, passing a <code>Message</code> object and an optional <code>chan Event </code>that can be used to listen for the result and do some local calculations, writes and etc. The Message object contains an opaque <code>interface{}</code> field that can be used to pass arbitrary data with the message to the subsequent event handler.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Go" data-lang="Go"><span style="color:#a6e22e">deliveryChan</span> <span style="color:#f92672">:=</span> make(<span style="color:#66d9ef">chan</span> <span style="color:#a6e22e">kafka</span>.<span style="color:#a6e22e">Event</span>, <span style="color:#ae81ff">10000</span>)
+<span style="color:#a6e22e">err</span> = <span style="color:#a6e22e">p</span>.<span style="color:#a6e22e">Produce</span>(<span style="color:#f92672">&amp;</span><span style="color:#a6e22e">kafka</span>.<span style="color:#a6e22e">Message</span>{
+    <span style="color:#a6e22e">TopicPartition</span>: <span style="color:#a6e22e">kafka</span>.<span style="color:#a6e22e">TopicPartition</span>{<span style="color:#a6e22e">Topic</span>: <span style="color:#e6db74">&#34;topic&#34;</span>, <span style="color:#a6e22e">Partition</span>: <span style="color:#a6e22e">kafka</span>.<span style="color:#a6e22e">PartitionAny</span>},
+    <span style="color:#a6e22e">Value</span>: []byte(<span style="color:#a6e22e">value</span>)},
+    <span style="color:#a6e22e">deliveryChan</span>,
+)
+</code></pre></div><p>This producer example shows how to invoke some code after the write has completed, you can use the delivery report channel passed to Produce to wait for the result of the message send:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Go" data-lang="Go"><span style="color:#a6e22e">e</span> <span style="color:#f92672">:=</span> <span style="color:#f92672">&lt;-</span><span style="color:#a6e22e">deliveryChan</span>
+<span style="color:#a6e22e">m</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">e</span>.(<span style="color:#f92672">*</span><span style="color:#a6e22e">kafka</span>.<span style="color:#a6e22e">Message</span>)
+
+<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">m</span>.<span style="color:#a6e22e">TopicPartition</span>.<span style="color:#a6e22e">Error</span> <span style="color:#f92672">!=</span> <span style="color:#66d9ef">nil</span> {
+    <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Printf</span>(<span style="color:#e6db74">&#34;Delivery failed: %v\n&#34;</span>, <span style="color:#a6e22e">m</span>.<span style="color:#a6e22e">TopicPartition</span>.<span style="color:#a6e22e">Error</span>)
+} <span style="color:#66d9ef">else</span> {
+    <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Printf</span>(<span style="color:#e6db74">&#34;Delivered message to topic %s [%d] at offset %v\n&#34;</span>,
+               <span style="color:#f92672">*</span><span style="color:#a6e22e">m</span>.<span style="color:#a6e22e">TopicPartition</span>.<span style="color:#a6e22e">Topic</span>, <span style="color:#a6e22e">m</span>.<span style="color:#a6e22e">TopicPartition</span>.<span style="color:#a6e22e">Partition</span>, <span style="color:#a6e22e">m</span>.<span style="color:#a6e22e">TopicPartition</span>.<span style="color:#a6e22e">Offset</span>)
+}
+
+close(<span style="color:#a6e22e">deliveryChan</span>)
+</code></pre></div><h2 id="synchronous-writes">Synchronous writes</h2>
+<p><strong>Making writes synchronous is typically a bad idea since it kills throughput</strong>, so librdkafka is async by nature. &hellip; Because of the different hash functions, a message produced by a Go client and a message produced by a librdkafka client may be assigned to different partitions even with the same partition key. So I prefer to stick to the async writes.</p>
+<p>But still here it is how to make synchronous writes ,receiving from the delivery channel passed to the Produce() method call:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Go" data-lang="Go"><span style="color:#a6e22e">deliveryChan</span> <span style="color:#f92672">:=</span> make(<span style="color:#66d9ef">chan</span> <span style="color:#a6e22e">kafka</span>.<span style="color:#a6e22e">Event</span>, <span style="color:#ae81ff">10000</span>)
+<span style="color:#a6e22e">err</span> = <span style="color:#a6e22e">p</span>.<span style="color:#a6e22e">Produce</span>(<span style="color:#f92672">&amp;</span><span style="color:#a6e22e">kafka</span>.<span style="color:#a6e22e">Message</span>{
+    <span style="color:#a6e22e">TopicPartition</span>: <span style="color:#a6e22e">kafka</span>.<span style="color:#a6e22e">TopicPartition</span>{<span style="color:#a6e22e">Topic</span>: <span style="color:#e6db74">&#34;topic&#34;</span>, <span style="color:#a6e22e">Partition</span>: <span style="color:#a6e22e">kafka</span>.<span style="color:#a6e22e">PartitionAny</span>},
+    <span style="color:#a6e22e">Value</span>: []byte(<span style="color:#a6e22e">value</span>)},
+    <span style="color:#a6e22e">delivery_chan</span>
+)
+
+ <span style="color:#a6e22e">e</span> <span style="color:#f92672">:=</span> <span style="color:#f92672">&lt;-</span><span style="color:#a6e22e">deliveryChan</span>
+ <span style="color:#a6e22e">m</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">e</span>.(<span style="color:#f92672">*</span><span style="color:#a6e22e">kafka</span>.<span style="color:#a6e22e">Message</span>)
+</code></pre></div><p>Or, to wait for all messages to be acknowledged, use the <code>Flush() Method.</code></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Go" data-lang="Go"><span style="color:#a6e22e">p</span>.<span style="color:#a6e22e">Flush</span>()
+</code></pre></div><p>You need to be careful with Flush method because it will only flush messages from the producer’s <code>Events() </code>not the ones in the<code>deliveryChan</code>and if the<code>Flush()</code> is called and no goroutine is processing the delivery channel, its buffer will fill up and cause a timeout.</p>
+<h2 id="kafka-consumer">Kafka Consumer</h2>
+<h2 id="initialization-of-kafka-consumer">Initialization of Kafka Consumer</h2>
+<p>Same as producer Go client uses a ConfigMap object to pass configuration to the consumer:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Go" data-lang="Go"><span style="color:#f92672">import</span> (
+    <span style="color:#e6db74">&#34;github.com/confluentinc/confluent-kafka-go/kafka&#34;</span>
+)
+
+<span style="color:#a6e22e">consumer</span>, <span style="color:#a6e22e">err</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">kafka</span>.<span style="color:#a6e22e">NewConsumer</span>(<span style="color:#f92672">&amp;</span><span style="color:#a6e22e">kafka</span>.<span style="color:#a6e22e">ConfigMap</span>{
+     <span style="color:#e6db74">&#34;bootstrap.servers&#34;</span>:    <span style="color:#e6db74">&#34;host1:9092,host2:9092&#34;</span>,
+     <span style="color:#e6db74">&#34;group.id&#34;</span>:             <span style="color:#e6db74">&#34;foo&#34;</span>,
+     <span style="color:#e6db74">&#34;auto.offset.reset&#34;</span>:    <span style="color:#e6db74">&#34;smallest&#34;</span>})
+</code></pre></div><h2 id="retrying-consumer-architecture-in-the-apache-kafka">Retrying consumer architecture in the Apache Kafka</h2>
+<p>Message processing is real problem for systems like Apache Kafka</p>
+<p>Implementation of a consumer that processes messages immediately just after receiving them from the Kafka topic is very straightforward. Unfortunately, the reality is much more complicated and the message processing might fail because of various reasons. Some of those reasons are permanent problems, like failure on the database constraint or invalid message format. Others, like temporary unavailability of a dependent system that is involved in message handling, can be resolved in the future. In those cases retrying of the message processing might be a valid solution.</p>
+<p>So you can implement your simple logic for retrying messages on some type of errors.</p>
+<h2 id="delivery-guarantees">Delivery guarantees</h2>
+<p>I mentioned above for idempotent producers also you need to be careful in consumer too.</p>
+<p>Apache Kafka says that “you get “at least once” delivery since the commit follows the message processing. By changing the order, however, you can get “at most once” delivery, but you must be a little careful with the commit failure.&quot;</p>
+<p>So committing on every message would produce a lot of overhead in practice. Apache Kafka suggests a better approach would be to collect a batch of messages, execute the synchronous commit, and then process the messages only if the commit succeeded.</p>
+<h2 id="synchronous-commits">Synchronous commits</h2>
+<p>The Go client provides a synchronous <code>Commit()</code> method call. Other variants of commit methods also accept a list of offsets to commit or a <code>Message</code> in order to commit offsets relative to a consumed message.</p>
+<p>The one thing that is important when using manual offset is when you initialize the consumer you need to set the key in map “enable.auto.commit” to false.</p>
+<p>// code snippet from confluent docs how to consume synchronous commits.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Go" data-lang="Go"><span style="color:#a6e22e">msg_count</span> <span style="color:#f92672">:=</span> <span style="color:#ae81ff">0</span>
+<span style="color:#66d9ef">for</span> <span style="color:#a6e22e">run</span> <span style="color:#f92672">==</span> <span style="color:#66d9ef">true</span> {
+	<span style="color:#a6e22e">ev</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">consumer</span>.<span style="color:#a6e22e">Poll</span>(<span style="color:#ae81ff">0</span>)
+	<span style="color:#66d9ef">switch</span> <span style="color:#a6e22e">e</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">ev</span>.(<span style="color:#66d9ef">type</span>) {
+	<span style="color:#66d9ef">case</span> <span style="color:#f92672">*</span><span style="color:#a6e22e">kafka</span>.<span style="color:#a6e22e">Message</span>:
+    	<span style="color:#a6e22e">msg_count</span> <span style="color:#f92672">+=</span> <span style="color:#ae81ff">1</span>
+    	<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">msg_count</span> <span style="color:#f92672">%</span> <span style="color:#a6e22e">MIN_COMMIT_COUNT</span> <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span> {
+        	<span style="color:#a6e22e">consumer</span>.<span style="color:#a6e22e">Commit</span>()
+    	}
+    	<span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Printf</span>(<span style="color:#e6db74">&#34;%% Message on %s:\n%s\n&#34;</span>,
+        	<span style="color:#a6e22e">e</span>.<span style="color:#a6e22e">TopicPartition</span>, string(<span style="color:#a6e22e">e</span>.<span style="color:#a6e22e">Value</span>))
+
+	<span style="color:#66d9ef">case</span> <span style="color:#a6e22e">kafka</span>.<span style="color:#a6e22e">PartitionEOF</span>:
+    	<span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Printf</span>(<span style="color:#e6db74">&#34;%% Reached %v\n&#34;</span>, <span style="color:#a6e22e">e</span>)
+	<span style="color:#66d9ef">case</span> <span style="color:#a6e22e">kafka</span>.<span style="color:#a6e22e">Error</span>:
+    	<span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Fprintf</span>(<span style="color:#a6e22e">os</span>.<span style="color:#a6e22e">Stderr</span>, <span style="color:#e6db74">&#34;%% Error: %v\n&#34;</span>, <span style="color:#a6e22e">e</span>)
+    	<span style="color:#a6e22e">run</span> = <span style="color:#66d9ef">false</span>
+	<span style="color:#66d9ef">default</span>:
+    	<span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Printf</span>(<span style="color:#e6db74">&#34;Ignored %v\n&#34;</span>, <span style="color:#a6e22e">e</span>)
+	}
+}
+</code></pre></div><p><strong>MIN_COMMIT_COUNT - is a global var for when synchronous commit is triggered.</strong></p>
+<h2 id="asynchronous-commits">Asynchronous commits</h2>
+<p>For asynchronous commits you just need simply to execute the commit  in a <a href="https://gobyexample.com/goroutines">Goroutine</a> function.</p>
+<h2 id="poll-loop">Poll Loop</h2>
+<p>Once you initialize the consumer you need to register the consumer to listen for messages on some “polls”.</p>
+<p>Simply you need to use the builtin function Consumer.SubscribeTopics() controls which topics will be fetched in the poll.</p>
+<p>// code snippet from confluent for registering consumer to a poll and retrieving the messages from the poll</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Go" data-lang="Go"><span style="color:#a6e22e">err</span> = <span style="color:#a6e22e">consumer</span>.<span style="color:#a6e22e">SubscribeTopics</span>(<span style="color:#a6e22e">topics</span>, <span style="color:#66d9ef">nil</span>)
+
+<span style="color:#66d9ef">for</span> <span style="color:#a6e22e">run</span> <span style="color:#f92672">==</span> <span style="color:#66d9ef">true</span> {
+    <span style="color:#a6e22e">ev</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">consumer</span>.<span style="color:#a6e22e">Poll</span>(<span style="color:#ae81ff">0</span>)
+    <span style="color:#66d9ef">switch</span> <span style="color:#a6e22e">e</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">ev</span>.(<span style="color:#66d9ef">type</span>) {
+    <span style="color:#66d9ef">case</span> <span style="color:#f92672">*</span><span style="color:#a6e22e">kafka</span>.<span style="color:#a6e22e">Message</span>:
+        <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Printf</span>(<span style="color:#e6db74">&#34;%% Message on %s:\n%s\n&#34;</span>,
+            <span style="color:#a6e22e">e</span>.<span style="color:#a6e22e">TopicPartition</span>, string(<span style="color:#a6e22e">e</span>.<span style="color:#a6e22e">Value</span>))
+    <span style="color:#66d9ef">case</span> <span style="color:#a6e22e">kafka</span>.<span style="color:#a6e22e">PartitionEOF</span>:
+        <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Printf</span>(<span style="color:#e6db74">&#34;%% Reached %v\n&#34;</span>, <span style="color:#a6e22e">e</span>)
+    <span style="color:#66d9ef">case</span> <span style="color:#a6e22e">kafka</span>.<span style="color:#a6e22e">Error</span>:
+        <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Fprintf</span>(<span style="color:#a6e22e">os</span>.<span style="color:#a6e22e">Stderr</span>, <span style="color:#e6db74">&#34;%% Error: %v\n&#34;</span>, <span style="color:#a6e22e">e</span>)
+        <span style="color:#a6e22e">run</span> = <span style="color:#66d9ef">false</span>
+    <span style="color:#66d9ef">default</span>:
+        <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Printf</span>(<span style="color:#e6db74">&#34;Ignored %v\n&#34;</span>, <span style="color:#a6e22e">e</span>)
+    }
+}
+
+<span style="color:#a6e22e">consumer</span>.<span style="color:#a6e22e">Close</span>()
+</code></pre></div><p>**Remember you always need to <!-- raw HTML omitted -->Close()<!-- raw HTML omitted -->after finishing with the consumer &amp; messages.<!-- raw HTML omitted --></p>
+<p>Feel free to contact me if you have any questions about Go or Apache Kafka.</p>
+<p><strong>References:</strong></p>
+<ul>
+<li><strong><a href="https://camel.apache.org/components/latest/eips/idempotentConsumer-eip.html">Idempotent Consumer</a></strong></li>
+<li><strong><a href="https://www.cloudkarafka.com/blog/2019-04-10-apache-kafka-idempotent-producer-avoiding-message-duplication.html">Apache Kafka Idempotent Producer - Avoiding message duplication</a></strong></li>
+<li><strong><a href="https://kafka.apache.org/documentation/">Apache Kafka</a></strong></li>
+</ul>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Custom API Calls params validator with go validator</title>
+            <link>https://darkodjalevski.me/posts/handler-params-validate/</link>
+            <pubDate>Fri, 27 Nov 2020 00:00:00 +0000</pubDate>
+            
+            <guid>https://darkodjalevski.me/posts/handler-params-validate/</guid>
+            <description>This custom validator is made with my best friend and coding buddy Gligor - link to his github account, his personal blog
 1. Custom ValidationError Structure file.  First we need to create our custom ValidationError structure  // ValidationError represents custom validation error structure // using this error when validating request body type ValidationError struct { Message string `json:&amp;#34;message&amp;#34;` Errors map[string]string `json:&amp;#34;errors,omitempty&amp;#34;` ValidationErrors validator.ValidationErrors `json:&amp;#34;-&amp;#34;` } Care we need to use go validator v10 - github.</description>
-    </item>
-    
-    <item>
-      <title>Go application architecture and error handling</title>
-      <link>https://darkodjalevski.me/posts/go-application-structure-error-handling/</link>
-      <pubDate>Thu, 29 Oct 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://darkodjalevski.me/posts/go-application-structure-error-handling/</guid>
-      <description>In this article, we are going to explore how to structure Go application and error handling.
+            <content type="html"><![CDATA[<p><em>This custom validator is made with my best friend and coding buddy Gligor - link to his <a href="https://github.com/Gligor23">github</a> account, his personal <a href="https://www.gudgl.me/">blog</a></em></p>
+<h3 id="1-custom-validationerror-structure-file">1. Custom ValidationError Structure file.</h3>
+<ul>
+<li>First we need to create our custom ValidationError structure</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Go" data-lang="Go"><span style="color:#75715e">// ValidationError represents custom validation error structure
+</span><span style="color:#75715e">// using this error when validating request body
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">type</span> <span style="color:#a6e22e">ValidationError</span> <span style="color:#66d9ef">struct</span> {
+	<span style="color:#a6e22e">Message</span>          <span style="color:#66d9ef">string</span>                     <span style="color:#e6db74">`json:&#34;message&#34;`</span>
+	<span style="color:#a6e22e">Errors</span>           <span style="color:#66d9ef">map</span>[<span style="color:#66d9ef">string</span>]<span style="color:#66d9ef">string</span>          <span style="color:#e6db74">`json:&#34;errors,omitempty&#34;`</span>
+	<span style="color:#a6e22e">ValidationErrors</span> <span style="color:#a6e22e">validator</span>.<span style="color:#a6e22e">ValidationErrors</span> <span style="color:#e6db74">`json:&#34;-&#34;`</span>
+}
+</code></pre></div><p><strong>Care we need to use <code>go validator v10</code> - github.com/go-playground/validator/v10</strong></p>
+<ul>
+<li>Constructor-like factory function for creating our NewValidationError</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Go" data-lang="Go"><span style="color:#75715e">// NewValidationError creates new ValidationError
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">NewValidationError</span>(<span style="color:#a6e22e">ve</span> <span style="color:#a6e22e">validator</span>.<span style="color:#a6e22e">ValidationErrors</span>) <span style="color:#f92672">*</span><span style="color:#a6e22e">ValidationError</span> {
+	<span style="color:#a6e22e">validationError</span> <span style="color:#f92672">:=</span> <span style="color:#f92672">&amp;</span><span style="color:#a6e22e">ValidationError</span>{
+		<span style="color:#a6e22e">Message</span>: <span style="color:#e6db74">&#34;some generic message&#34;</span>,
+	}
+
+	<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">ve</span> <span style="color:#f92672">!=</span> <span style="color:#66d9ef">nil</span> {
+		<span style="color:#a6e22e">validationError</span>.<span style="color:#a6e22e">ValidationErrors</span> = <span style="color:#a6e22e">ve</span>
+		<span style="color:#a6e22e">validationError</span>.<span style="color:#a6e22e">FormatErrors</span>()
+	}
+
+	<span style="color:#66d9ef">return</span> <span style="color:#a6e22e">validationError</span>
+}
+</code></pre></div><ul>
+<li>FormatErrors function creates key and message for each validation error</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Go" data-lang="Go"><span style="color:#75715e">// FormatErrors creates key and message for each validation error
+</span><span style="color:#75715e">// be careful when using err.Param() only use it on tags with param value (ex: max=1)
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">func</span> (<span style="color:#a6e22e">q</span> <span style="color:#f92672">*</span><span style="color:#a6e22e">ValidationError</span>) <span style="color:#a6e22e">FormatErrors</span>() {
+	<span style="color:#a6e22e">q</span>.<span style="color:#a6e22e">Errors</span> = make(<span style="color:#66d9ef">map</span>[<span style="color:#66d9ef">string</span>]<span style="color:#66d9ef">string</span>)
+
+	<span style="color:#66d9ef">for</span> <span style="color:#a6e22e">_</span>, <span style="color:#a6e22e">err</span> <span style="color:#f92672">:=</span> <span style="color:#66d9ef">range</span> <span style="color:#a6e22e">q</span>.<span style="color:#a6e22e">ValidationErrors</span> {
+		<span style="color:#66d9ef">switch</span> <span style="color:#a6e22e">err</span>.<span style="color:#a6e22e">ActualTag</span>() {
+		<span style="color:#66d9ef">case</span> <span style="color:#e6db74">&#34;email&#34;</span>:
+			<span style="color:#a6e22e">q</span>.<span style="color:#a6e22e">Errors</span>[<span style="color:#a6e22e">err</span>.<span style="color:#a6e22e">Field</span>()] = <span style="color:#e6db74">&#34;Invalid email format&#34;</span>
+		<span style="color:#66d9ef">case</span> <span style="color:#e6db74">&#34;required&#34;</span>:
+			<span style="color:#a6e22e">q</span>.<span style="color:#a6e22e">Errors</span>[<span style="color:#a6e22e">err</span>.<span style="color:#a6e22e">Field</span>()] = <span style="color:#e6db74">&#34;This field is required&#34;</span>
+		<span style="color:#66d9ef">case</span> <span style="color:#e6db74">&#34;max&#34;</span>:
+			<span style="color:#a6e22e">q</span>.<span style="color:#a6e22e">Errors</span>[<span style="color:#a6e22e">err</span>.<span style="color:#a6e22e">Field</span>()] = <span style="color:#e6db74">&#34;Max length allowed is &#34;</span> <span style="color:#f92672">+</span> <span style="color:#a6e22e">err</span>.<span style="color:#a6e22e">Param</span>()
+		<span style="color:#66d9ef">case</span> <span style="color:#e6db74">&#34;min&#34;</span>:
+			<span style="color:#a6e22e">q</span>.<span style="color:#a6e22e">Errors</span>[<span style="color:#a6e22e">err</span>.<span style="color:#a6e22e">Field</span>()] = <span style="color:#e6db74">&#34;Must be at least &#34;</span> <span style="color:#f92672">+</span> <span style="color:#a6e22e">err</span>.<span style="color:#a6e22e">Param</span>() <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34; character long&#34;</span>
+		<span style="color:#66d9ef">case</span> <span style="color:#e6db74">&#34;alphanum&#34;</span>:
+			<span style="color:#a6e22e">q</span>.<span style="color:#a6e22e">Errors</span>[<span style="color:#a6e22e">err</span>.<span style="color:#a6e22e">Field</span>()] = <span style="color:#e6db74">&#34;Only alphanumeric characters allowed&#34;</span>
+		<span style="color:#66d9ef">case</span> <span style="color:#e6db74">&#34;oneof&#34;</span>:
+			<span style="color:#a6e22e">q</span>.<span style="color:#a6e22e">Errors</span>[<span style="color:#a6e22e">err</span>.<span style="color:#a6e22e">Field</span>()] = <span style="color:#e6db74">&#34;Must be one of: &#34;</span> <span style="color:#f92672">+</span> <span style="color:#a6e22e">err</span>.<span style="color:#a6e22e">Param</span>()
+		<span style="color:#66d9ef">case</span> <span style="color:#e6db74">&#34;html&#34;</span>:
+			<span style="color:#a6e22e">q</span>.<span style="color:#a6e22e">Errors</span>[<span style="color:#a6e22e">err</span>.<span style="color:#a6e22e">Field</span>()] = <span style="color:#e6db74">&#34;Content must be html&#34;</span>
+		<span style="color:#66d9ef">default</span>:
+			<span style="color:#a6e22e">q</span>.<span style="color:#a6e22e">Errors</span>[<span style="color:#a6e22e">err</span>.<span style="color:#a6e22e">Field</span>()] = <span style="color:#e6db74">&#34;Validation failed on condition: &#34;</span> <span style="color:#f92672">+</span> <span style="color:#a6e22e">err</span>.<span style="color:#a6e22e">ActualTag</span>()
+		}
+	}
+}
+</code></pre></div><h3 id="2-we-are-all-setup-to-register-our-custom-validator">2. We are all setup to register our custom validator</h3>
+<ul>
+<li>We can make global var for our validator</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Go" data-lang="Go"><span style="color:#75715e">// MyCustomValidator global validator
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">MyCustomValidator</span> <span style="color:#f92672">*</span><span style="color:#a6e22e">validator</span>.<span style="color:#a6e22e">Validate</span>
+</code></pre></div><ul>
+<li>Constructor-like function</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Go" data-lang="Go"><span style="color:#75715e">// Validator is a constructor for our validator
+</span><span style="color:#75715e">// if our validator is once created it returns it else it creates it
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">Validator</span>() <span style="color:#f92672">*</span><span style="color:#a6e22e">validator</span>.<span style="color:#a6e22e">Validate</span> {
+	<span style="color:#a6e22e">sync</span>.<span style="color:#a6e22e">Once</span>.<span style="color:#a6e22e">Do</span>(<span style="color:#66d9ef">func</span>() {
+		<span style="color:#a6e22e">initValidator</span>()
+	})
+
+	<span style="color:#66d9ef">return</span> <span style="color:#a6e22e">MBValidator</span>
+}
+</code></pre></div><ul>
+<li>initValidator() initializes validator</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Go" data-lang="Go"><span style="color:#75715e">// Using &#34;validate&#34; in structure to validate param and use name of param from form:&#34;bla&#34;
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">initValidator</span>() {
+	<span style="color:#a6e22e">MyCustomValidator</span> = <span style="color:#a6e22e">validator</span>.<span style="color:#a6e22e">New</span>()
+	<span style="color:#a6e22e">MyCustomValidator</span>.<span style="color:#a6e22e">SetTagName</span>(<span style="color:#e6db74">&#34;validate&#34;</span>)
+	<span style="color:#a6e22e">MyCustomValidator</span>.<span style="color:#a6e22e">RegisterTagNameFunc</span>(<span style="color:#66d9ef">func</span>(<span style="color:#a6e22e">fld</span> <span style="color:#a6e22e">reflect</span>.<span style="color:#a6e22e">StructField</span>) <span style="color:#66d9ef">string</span> {
+		<span style="color:#a6e22e">name</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">strings</span>.<span style="color:#a6e22e">SplitN</span>(<span style="color:#a6e22e">fld</span>.<span style="color:#a6e22e">Tag</span>.<span style="color:#a6e22e">Get</span>(<span style="color:#e6db74">&#34;form&#34;</span>), <span style="color:#e6db74">&#34;,&#34;</span>, <span style="color:#ae81ff">2</span>)[<span style="color:#ae81ff">0</span>]
+		<span style="color:#66d9ef">return</span> <span style="color:#a6e22e">name</span>
+	})
+}
+</code></pre></div><ul>
+<li>We can  create our own tagName for validating our own params</li>
+</ul>
+<p>Let&rsquo;s create custom tag validator which will validate if our param is made from AlphaNumericHypen characters.</p>
+<ul>
+<li>First we need to add custom error message in <code>FormatErrors()</code> function</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Go" data-lang="Go"><span style="color:#66d9ef">case</span> <span style="color:#e6db74">&#34;alphanumhyphen&#34;</span>:
+<span style="color:#a6e22e">q</span>.<span style="color:#a6e22e">Errors</span>[<span style="color:#a6e22e">err</span>.<span style="color:#a6e22e">Field</span>()] = <span style="color:#e6db74">&#34;Must consist only of alphanumeric and hyphen characters&#34;</span>
+</code></pre></div><ul>
+<li>Second we need to create  function which will validate our custom tag.</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Go" data-lang="Go"><span style="color:#66d9ef">func</span>(<span style="color:#a6e22e">fl</span> <span style="color:#a6e22e">validator</span>.<span style="color:#a6e22e">FieldLevel</span>) <span style="color:#a6e22e">ValidateAlphaHypenNumTag</span> <span style="color:#66d9ef">bool</span> {
+	<span style="color:#a6e22e">matched</span>, <span style="color:#a6e22e">_</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">regexp</span>.<span style="color:#a6e22e">MatchString</span>(<span style="color:#e6db74">&#34;^[\\w-]*$&#34;</span>, <span style="color:#a6e22e">fl</span>.<span style="color:#a6e22e">Field</span>().<span style="color:#a6e22e">String</span>())
+		<span style="color:#66d9ef">return</span> <span style="color:#a6e22e">matched</span>
+}
+</code></pre></div><ul>
+<li>Now we can register our custom tag validator in our custom validator <code>initValidator()</code></li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Go" data-lang="Go"><span style="color:#75715e">// Using &#34;validate&#34; in structure to validate param and use name of param from form:&#34;bla&#34;
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">initValidator</span>() {
+	<span style="color:#a6e22e">MyCustomValidator</span> = <span style="color:#a6e22e">validator</span>.<span style="color:#a6e22e">New</span>()
+	<span style="color:#a6e22e">MyCustomValidator</span>.<span style="color:#a6e22e">SetTagName</span>(<span style="color:#e6db74">&#34;validate&#34;</span>)
+	<span style="color:#a6e22e">MyCustomValidator</span>.<span style="color:#a6e22e">RegisterTagNameFunc</span>(<span style="color:#66d9ef">func</span>(<span style="color:#a6e22e">fld</span> <span style="color:#a6e22e">reflect</span>.<span style="color:#a6e22e">StructField</span>) <span style="color:#66d9ef">string</span> {
+		<span style="color:#a6e22e">name</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">strings</span>.<span style="color:#a6e22e">SplitN</span>(<span style="color:#a6e22e">fld</span>.<span style="color:#a6e22e">Tag</span>.<span style="color:#a6e22e">Get</span>(<span style="color:#e6db74">&#34;form&#34;</span>), <span style="color:#e6db74">&#34;,&#34;</span>, <span style="color:#ae81ff">2</span>)[<span style="color:#ae81ff">0</span>]
+		<span style="color:#66d9ef">return</span> <span style="color:#a6e22e">name</span>
+	})
+
+	<span style="color:#75715e">// RegisterValidation needs tag name and function which will do the validation.
+</span><span style="color:#75715e"></span>	<span style="color:#a6e22e">err</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">MyCustomValidator</span>.<span style="color:#a6e22e">RegisterValidation</span>(<span style="color:#e6db74">&#34;alphanumhyphen&#34;</span>, <span style="color:#a6e22e">b</span> <span style="color:#a6e22e">ValidateAlphaHypenNumTag</span>) {
+		<span style="color:#66d9ef">return</span> <span style="color:#a6e22e">b</span>
+	})
+	<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">err</span> <span style="color:#f92672">!=</span> <span style="color:#66d9ef">nil</span> {
+		<span style="color:#75715e">// if register validation fails panic
+</span><span style="color:#75715e"></span>		panic(<span style="color:#a6e22e">err</span>)
+	}
+}
+</code></pre></div><h3 id="3-lets-finally-use-our-custom-validator">3. Let&rsquo;s finally use our custom validator</h3>
+<ul>
+<li>Create param structure for PostAccount() handler.</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Go" data-lang="Go"><span style="color:#75715e">// PostAccount represents request body for POST /api/account
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">type</span> <span style="color:#a6e22e">PostAccount</span> <span style="color:#66d9ef">struct</span> {
+	<span style="color:#a6e22e">Name</span>         <span style="color:#66d9ef">string</span>            <span style="color:#e6db74">`form:&#34;name&#34; 		        validate:&#34;required,max=191&#34;`</span>
+	<span style="color:#a6e22e">Email</span> 		 <span style="color:#66d9ef">string</span>            <span style="color:#e6db74">`form:&#34;email&#34;                validate:&#34;required,email,max=191&#34;`</span>
+	<span style="color:#a6e22e">Password</span>	 <span style="color:#66d9ef">string</span>            <span style="color:#e6db74">`form:&#34;password&#34; 	        validate:&#34;required,min=8&#34;`</span>
+	<span style="color:#a6e22e">Metadata</span>     <span style="color:#66d9ef">map</span>[<span style="color:#66d9ef">string</span>]<span style="color:#66d9ef">string</span> <span style="color:#e6db74">`form:&#34;metadata&#34;             validate:&#34;omitempty,dive,keys,required,alphanumhyphen,endkeys,required&#34;`</span>
+
+}
+</code></pre></div><ul>
+<li>Create PostAccount() Handler.</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Go" data-lang="Go"><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">PostAccount</span>() {
+	<span style="color:#a6e22e">bodyParams</span> <span style="color:#f92672">:=</span> <span style="color:#f92672">&amp;</span><span style="color:#a6e22e">params</span>.<span style="color:#a6e22e">PostAccount</span>{}
+	<span style="color:#75715e">// Fil bodyParams from form body or whatever you are using for binding.
+</span><span style="color:#75715e"></span>
+	<span style="color:#75715e">// use our custom validator to validate body params.
+</span><span style="color:#75715e"></span>	<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">err</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">validator</span>.<span style="color:#a6e22e">Validate</span>(<span style="color:#a6e22e">body</span>); <span style="color:#a6e22e">err</span> <span style="color:#f92672">!=</span> <span style="color:#66d9ef">nil</span> {
+		<span style="color:#75715e">// return response to end user, and the error
+</span><span style="color:#75715e"></span>		<span style="color:#66d9ef">return</span>
+	}
+}
+</code></pre></div><ul>
+<li>Error which will be shown to end user will be descriptive and easy to understand.
+&ndash; if he fail <code>Password</code> lenght or incorrect <code>email</code> he will recieve error message with both of errors:</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JSON" data-lang="JSON">	<span style="color:#e6db74">&#34;code&#34;</span><span style="color:#960050;background-color:#1e0010">:</span> <span style="color:#ae81ff">400</span>
+	<span style="color:#e6db74">&#34;message&#34;</span> <span style="color:#960050;background-color:#1e0010">:</span> <span style="color:#e6db74">&#34;Invalid parameters, please try again&#34;</span>
+	<span style="color:#e6db74">&#34;errors&#34;</span><span style="color:#960050;background-color:#1e0010">:</span> {
+			   <span style="color:#f92672">&#34;email&#34;</span>: <span style="color:#e6db74">&#34;Invalid email format&#34;</span>, 
+			   <span style="color:#f92672">&#34;password&#34;</span>: <span style="color:#e6db74">&#34;Must be at least 8 character long&#34;</span>
+			   }<span style="color:#960050;background-color:#1e0010">)</span>
+</code></pre></div><p><em>Feel free to contact me if you need any help.</em></p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Go application architecture and error handling</title>
+            <link>https://darkodjalevski.me/posts/go-application-structure-error-handling/</link>
+            <pubDate>Thu, 29 Oct 2020 00:00:00 +0000</pubDate>
+            
+            <guid>https://darkodjalevski.me/posts/go-application-structure-error-handling/</guid>
+            <description>In this article, we are going to explore how to structure Go application and error handling.
 1. Go application architecture /cmd  This folder contains the main application entry point files for the project, with the directory name matching the name for the binary. So for example cmd/send-email meaning that the binary we publish will be send-email.  /pkg  This folder contains code which is OK for other services to consume, this may include API clients, or utility functions which may be handy for other projects but don’t justify their own project.</description>
-    </item>
-    
-    <item>
-      <title>Tips for learning Golang</title>
-      <link>https://darkodjalevski.me/posts/tips-for-learning-go/</link>
-      <pubDate>Sun, 04 Oct 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://darkodjalevski.me/posts/tips-for-learning-go/</guid>
-      <description>1. The Little Go Book The Little Go Book is old, but it&amp;rsquo;s a very good start and It&amp;rsquo;s aimed at developers who might not be quite comfortable with the idea of pointers and static typing.
+            <content type="html"><![CDATA[<p>In this article, we are going to explore how to structure <code>Go</code> application and <code>error</code> handling.</p>
+<h3 id="1-go-application-architecture">1. Go application architecture</h3>
+<h4 id="cmd">/cmd</h4>
+<ul>
+<li>This folder contains the main application entry point files for the project, with the directory name matching the name for the binary. So for example cmd/send-email meaning that the binary we publish will be send-email.</li>
+</ul>
+<h4 id="pkg">/pkg</h4>
+<ul>
+<li>This folder contains code which is OK for other services to consume, this may include API clients, or utility functions which may be handy for other projects but don’t justify their own project.</li>
+</ul>
+<h3 id="2-go-error-handling">2. Go error handling</h3>
+<p><code>Go</code> does not provide conventional try/catch method to handle the <code>errors</code> instead, <code>errors</code> are returned as a normal return value.</p>
+<p>Let&rsquo;s assume that we have API call, that is located in <em>/pkg/handlers/handler.go</em>
+Handler is calling some service function from <em>/pkg/services/service.go</em>
+Service is calling some store method from <em>/pkg/store/store.go</em>. All functions are returning error as value.
+Instead of logging  all errors in every function we should wrap the the error from store.go after that wrap the error in service.go and log the error or handle it in handler.go.</p>
+<p>Show me the code talk is cheap. :)
+This should look something like this</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">FuncHandler</span>() {
+	<span style="color:#a6e22e">err</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">service</span>.<span style="color:#a6e22e">FuncService</span>()
+	<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">err</span> <span style="color:#f92672">!=</span> <span style="color:#66d9ef">nil</span> {
+		<span style="color:#a6e22e">log</span>.<span style="color:#a6e22e">Errorf</span>(<span style="color:#e6db74">&#34;error in handler:%w&#34;</span>,<span style="color:#a6e22e">err</span>)
+	}
+}
+<span style="color:#66d9ef">func</span> <span style="color:#a6e22e">FuncService</span>() {
+	<span style="color:#a6e22e">err</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">store</span>.<span style="color:#a6e22e">FuncStore</span>()
+	<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">err</span> <span style="color:#f92672">!=</span> <span style="color:#66d9ef">nil</span> {
+		<span style="color:#66d9ef">return</span> <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Errorf</span>(<span style="color:#e6db74">&#34;error in service:%w&#34;</span>, <span style="color:#a6e22e">err</span>)
+	}
+}
+<span style="color:#66d9ef">func</span> <span style="color:#a6e22e">FuncStore</span>() {
+	<span style="color:#a6e22e">err</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">Query</span>(<span style="color:#a6e22e">dosmth</span>)
+	<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">err</span> <span style="color:#f92672">!=</span> <span style="color:#66d9ef">nil</span> {
+		<span style="color:#66d9ef">return</span> <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Errorf</span>(<span style="color:#e6db74">&#34;error in store:%w&#34;</span>, <span style="color:#a6e22e">err</span>)
+	}
+}
+</code></pre></div><p>So if the error occurs in FuncStore and we log the error on FuncHandler the error message will be:</p>
+<p><code>level=error msg=&quot;error in handler&quot; error=&quot;error in service: error in store: Error:&quot;query error&quot;</code></p>
+<p>It&rsquo;s readable the code is not messy with a lot of logs and it&rsquo;s easy trackable where the <code>error</code> occur and what is the error.</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Tips for learning Golang</title>
+            <link>https://darkodjalevski.me/posts/tips-for-learning-go/</link>
+            <pubDate>Sun, 04 Oct 2020 00:00:00 +0000</pubDate>
+            
+            <guid>https://darkodjalevski.me/posts/tips-for-learning-go/</guid>
+            <description>1. The Little Go Book The Little Go Book is old, but it&amp;rsquo;s a very good start and It&amp;rsquo;s aimed at developers who might not be quite comfortable with the idea of pointers and static typing.
 2. Don&amp;rsquo;t skip the fundamentals Go has a very readable language spec that was clearly written to be read and understood, even if you don&amp;rsquo;t have a master&amp;rsquo;s in language or compiler theory. Reading language spec document alongside Effective Go, another great resource from the Golang creators, will give you a huge boost in readiness to use the language effectively and properly.</description>
-    </item>
-    
-  </channel>
+            <content type="html"><![CDATA[<h2 id="1-the-little-go-book">1. The Little Go Book</h2>
+<p><a href="https://openmymind.net/The-Little-Go-Book/">The Little Go Book</a> is old, but it&rsquo;s a very good start and It&rsquo;s aimed at developers who might not be quite comfortable with the idea of pointers and static typing.</p>
+<h2 id="2-dont-skip-the-fundamentals">2. Don&rsquo;t skip the fundamentals</h2>
+<p>Go has a very readable <a href="https://golang.org/ref/spec">language spec</a> that was clearly written to be read and understood, even if you don&rsquo;t have a master&rsquo;s in language or compiler theory.
+Reading language spec document alongside <a href="https://golang.org/doc/effective_go.html">Effective Go</a>, another great resource from the Golang creators, will give you a huge boost in readiness to use the language effectively and properly.</p>
+<h2 id="3-use-good-language-tools">3. Use good language tools</h2>
+<p>Go have a very strict typing rule so everybody&rsquo;s code will be the same.
+You will quickly learn about go fmt and the power of it.</p>
+<p><code>gofmt</code> is built into the language runtime, and it formats Go code according to a set of stable, well-understood language rules.</p>
+<p>I strongly recommend using an editor or IDE with good Golang support features.
+I prefer <a href="https://www.jetbrains.com/go/promo/?gclid=EAIaIQobChMI06CSiJid7AIVSPiyCh3K3QJrEAAYASAAEgLEufD_BwE">GoLand</a> but since is not free <a href="https://code.visualstudio.com/">Code Visual Studio</a> have very good plugins for Go too.</p>
+<h2 id="4-start-typing-some-code">4. Start typing some code</h2>
+<ul>
+<li>I strongly recommend to start typing and learn about go concepts from  <a href="https://gobyexample.com/">Go by example</a> hands-on introduction to Go using annotated example programs.</li>
+<li><a href="https://tour.golang.org/welcome/1">Tour of Go</a></li>
+</ul>
+<h2 id="5-simple-restful-api">5. Simple RESTful API</h2>
+<p>For last you can make simple RESTful API using go and one of supported database plugins, I recommend <code>mysql</code> for start.</p>
+]]></content>
+        </item>
+        
+    </channel>
 </rss>
