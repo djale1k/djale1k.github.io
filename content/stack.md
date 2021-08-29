@@ -44,13 +44,16 @@ title = "Stack & Techs"
 
 
 ## Main Programming Languages
+
 ###Go
 * Strong knowledge of Go programming language, paradigms, constructs, and idioms
 * Concurrency patterns
 * Goroutine and channel patterns
 * Full suite of go frameworks and code generation tools
+
 ###PHP
 
 ## CI/CD, Repo Management
+
 * GitHub Actions
 * Golang repo management (go releases,lint CI,test coverage...)
