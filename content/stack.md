@@ -45,13 +45,14 @@ title = "Stack & Techs"
 
 ## Main Programming Languages
 
-###Go
+### Go
+
 * Strong knowledge of Go programming language, paradigms, constructs, and idioms
 * Concurrency patterns
 * Goroutine and channel patterns
 * Full suite of go frameworks and code generation tools
 
-###PHP
+### PHP
 
 ## CI/CD, Repo Management
 
