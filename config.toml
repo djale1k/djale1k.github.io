@@ -60,6 +60,11 @@ paginate     = 10
     identifier = "posts"
     name       = "Posts"
     url        = "posts/"
+[[menu.main]]
+identifier = "stack"
+name       = "Stack"
+url        = "stack/"
+
 
   # Social icons
   [[params.social]]
