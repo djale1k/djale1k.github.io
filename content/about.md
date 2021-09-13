@@ -2,7 +2,7 @@
 title = "About"
 +++
 
-Hello there! I’m a software engineer in Skopje, Macedonia with a passion for computers, programming and designing and developing distributed systems. I have 3 years of experience as a backend engineer with a focus on distributed systems, designing APIs and microservices.
+Hello there! I’m a software engineer in Skopje, Macedonia with a passion for computers, programming and designing and developing distributed systems. I have 4 years of experience as a backend engineer with a focus on distributed systems, designing APIs and microservices.
 
 Currently I’m working at [InPlayer](https://inplayer.com/) as Backend engineer
 
