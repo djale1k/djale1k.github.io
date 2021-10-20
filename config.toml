@@ -77,7 +77,7 @@ url        = "stack/"
 
   [[params.social]]
     name = "linkedin"
-    url  = "https://www.linkedin.com/in/darkodjalevski-702576169/"
+    url  = "https://www.linkedin.com/in/darkodjalevski/"
 
   [[params.social]]
     name = "stackoverflow"
