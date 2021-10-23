@@ -26,6 +26,7 @@ since Go's design patterns it's not very compatible with hexagonal architecture.
 ### 3. Project structure
 Making the project structure was also a very important part so when we arrive on site
 We can jump straight on coding and designing the solution for the application.
+
 I wanted to put the architecture structure aside at the start,
 so they can easily understand the Golang design pattern,
 and put their main focus on best Golang practices for some time being.
