@@ -26,7 +26,9 @@ since Go's design patterns it's not very compatible with hexagonal architecture.
 ### 3. Project structure
 Making the project structure was also a very important part so when we arrive on site
 We can jump straight on coding and designing the solution for the application.
-
+I wanted to put the architecture structure aside at the start,
+so they can easily understand the Golang design pattern,
+and put their main focus on best Golang practices for some time being.
 
 ## The Skill Sprint
 The last week was fun, intense and one of the best experiences for me as a software engineer.
@@ -42,10 +44,14 @@ The advantages of the architecture for example `Separation of concerns` I would 
 they are easily managed with the well-defined Golang interfaces across the project structure,
 or `Parallelization of work` , `Tests in isolation` I just simply all of the time was restructuring that
 with an easy well-defined Golang design pattern that was not overkilling by following this archy.
- 
-The team adapted, and it's adapting the Golang syntax very fast, they were really good at
-catching the Golang code standards, best practices and at the same time implementing that in their own
-archy.
+
+The idea of starting with a different project structure and not following the
+architecture structure For Me, it was one of the best decisions they got up to speed with Golang's best practices and Go effective in three days,
+and then we started with refactoring the code into the hexagonal structure.
+
+
+The team adapted the Golang syntax very fast, they were really good at
+catching the Golang code standards, best practices and at the same time implementing that in hexagonal archy.
 
 
 This intense 5-day sprint was enough to code the two applications(micro-services) and touch everything from
