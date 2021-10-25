@@ -16,6 +16,12 @@ So when we arrive at the site we will only focus on coding the solution followin
 To answer this question there are two additional questions.
 What are the business requirements and
 Is there any tech that they follow with their monolith application.
+They chose the hexagonal architecture.
+
+The hexagonal architecture divides a system into several loosely-coupled interchangeable components, such as the application core, 
+the database, the user interface, test scripts and interfaces with other systems. 
+This approach is an alternative to the traditional layered architecture.
+
 
 ### 2. Design Patterns
 After deciding on architecture we needed to decide with
@@ -24,7 +30,7 @@ This is the part that will make us struggle and make us do a lot of cut-offs to 
 since Go's design patterns it's not very compatible with hexagonal architecture.
 
 ### 3. Project structure
-Making the project structure was also a very important part so when we arrive on site
+Making the project structure was also a very important part so when we arrive at site
 We can jump straight on coding and designing the solution for the application.
 
 I wanted to put the architecture structure aside at the start,
@@ -40,10 +46,15 @@ This could be a disadvantage if our service has to be extremely performant which
 
 The archy was overkill for me because the micro-service has only one specific task at this point
 and our main focus was on learning and coding in the best Golang practices.
+The structure of the project following the hexagonal archy it's not compatible with golang concurrency patterns and structures which made us
+struggle with implementing async calls in the project.
+The golang interfaces are clean enough and with them, you can achieve "Hexagonal Archy" in a very much clean way and not have an impact on
+speed performance.
+So I would make "cutbacks" in the archy(design the archy in a different way not having the classical port, adapters, and core) to gain fast and clean code.
 
 The advantages of the architecture for example `Separation of concerns` I would say that
 they are easily managed with the well-defined Golang interfaces across the project structure,
-or `Parallelization of work` , `Tests in isolation` I just simply all of the time was restructuring that
+or `Parallelization of work` , `Tests in isolation` I just simply all the time was restructuring that
 with an easy well-defined Golang design pattern that was not overkilling by following this archy.
 
 The idea of starting with a different project structure and not following the
