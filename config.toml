@@ -64,6 +64,7 @@ paginate     = 10
 identifier = "stack"
 name       = "Stack"
 url        = "stack/"
+images = ["static/images/struct.png"]
 
 
   # Social icons
