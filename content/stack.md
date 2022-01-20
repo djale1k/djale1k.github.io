@@ -20,6 +20,13 @@ title = "Stack & Techs"
 * Google Cloud Storage
 * AWS S3
 
+## AWS Services
+* Lambda funcs
+* Step Functions
+* CFLogs
+* Athena
+* Quicksight
+
 ## ELK Stack 
 * Elasticsearch
 * Logstash
