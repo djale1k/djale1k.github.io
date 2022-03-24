@@ -16,6 +16,9 @@ title = "Stack & Techs"
 * Memcached
 * Redis
 
+### Data Lakes
+* Snowflake
+
 ## Cloud Native Storages
 * Google Cloud Storage
 * AWS S3
@@ -26,6 +29,7 @@ title = "Stack & Techs"
 * CFLogs
 * Athena
 * Quicksight
+* AWS Glue ETL Jobs and scripting
 
 ## ELK Stack 
 * Elasticsearch
