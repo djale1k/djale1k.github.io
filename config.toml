@@ -14,7 +14,7 @@ paginate     = 10
    footerRight = "<a></a>"
 
   # Subtitle for home
-  homeSubtitle = "Software Engineer /Go Mage"
+  homeSubtitle = "Software Engineer /Go Enthusiast"
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   disableReadOtherPosts = false
