@@ -61,6 +61,10 @@ url        = "about/"
 identifier = "posts"
 name       = "Posts"
 url        = "posts/"
+[[menu.main]]
+identifier = "experience"
+name       = "Experience"
+url        = "experience/"
 images = ["static/images/struct.png"]
 
 # Social icons
@@ -77,5 +81,4 @@ name = "linkedin"
 url  = "https://www.linkedin.com/in/darkodjalevski/"
 
 [params.footer]
-trademark = true
-copyright = true
+copyright = "© Darko Djalevski *"
