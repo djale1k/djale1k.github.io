@@ -73,4 +73,4 @@ coding concurrent tasks in the applications using Goroutines, channels, and mute
 An intense course of 40hours boosted and improved my soft skills, 
 It was a great pleasure, and I was very happy to help and share my knowledge.
 
-The Skill Sprint was sponsored by [Darwinist](https://darwinist.io/case-study/globalsoft/)
+The Skill Sprint was sponsored by [Darwinist](https://darwinist.io/case-studies/globalsoft)

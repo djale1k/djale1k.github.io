@@ -14,7 +14,7 @@ paginate     = 10
    footerRight = "<a></a>"
 
   # Subtitle for home
-  homeSubtitle = "Software Engineer /Go Enthusiast"
+  homeSubtitle = "Senior Software Engineer | Go Enthusiast | Tech Lead"
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   disableReadOtherPosts = false
@@ -60,17 +60,13 @@ paginate     = 10
     identifier = "posts"
     name       = "Posts"
     url        = "posts/"
-[[menu.main]]
-identifier = "stack"
-name       = "Stack"
-url        = "stack/"
 images = ["static/images/struct.png"]
 
 
   # Social icons
   [[params.social]]
     name = "email"
-    url  = "mailto:dare_zalevski@yahoo.com"
+    url  = "mailto:darezalevski97@gmail.com"
 
   [[params.social]]
     name = "github"
@@ -79,10 +75,6 @@ images = ["static/images/struct.png"]
   [[params.social]]
     name = "linkedin"
     url  = "https://www.linkedin.com/in/darkodjalevski/"
-
-  [[params.social]]
-    name = "stackoverflow"
-    url  = "https://stackoverflow.com/users/9807296/dzalevski"
 
 [params.footer]
   trademark = true
