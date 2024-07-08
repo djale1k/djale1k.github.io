@@ -5,70 +5,72 @@
     <link>https://darkodjalevski.me/</link>
     <description>Recent content on Darko Djalevski</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en</language>
     <copyright>Darko Djalevski</copyright>
-    <lastBuildDate>Sun, 02 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://darkodjalevski.me/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 08 Jul 2024 06:00:00 +0000</lastBuildDate>
+    <atom:link href="https://darkodjalevski.me/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Golang&#39;s Garbage Collection Simplified</title>
+      <link>https://darkodjalevski.me/posts/golang-gc-simplified/</link>
+      <pubDate>Mon, 08 Jul 2024 06:00:00 +0000</pubDate>
+      <guid>https://darkodjalevski.me/posts/golang-gc-simplified/</guid>
+      <description>Garbage collection (GC) is one of those magical features in Go that helps manage memory automatically, so we don’t have to manually allocate and deallocate memory. Understanding how Go’s GC works can help you write more efficient and optimized code. Let&amp;rsquo;s dive into the basics of Go&amp;rsquo;s garbage collector, simplified for entry-level Go engineers.&#xA;What is Garbage Collection? Garbage collection is a form of automatic memory management. The garbage collector attempts to reclaim memory occupied by objects that are no longer in use by the program, preventing memory leaks and improving performance.</description>
+    </item>
+    <item>
+      <title>Skill Sprint PHP Monolith to Go Microservices</title>
+      <link>https://darkodjalevski.me/posts/skill-sprint-php-to-go/</link>
+      <pubDate>Fri, 22 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://darkodjalevski.me/posts/skill-sprint-php-to-go/</guid>
+      <description>Skill Sprint is a five-day intense learning programme led by an experienced IT professional, where a few participating employees re-engineer specific structures or learn new technologies and practices to re-engineer how an application works in specific situations.&#xA;Month Before the Skill Sprint I would say it was the most important, We have talked about three preparation-like steps. So when we arrive at the site we will only focus on coding the solution following the best practices and standards for coding in Golang and the architecture.</description>
+    </item>
     <item>
       <title>Contribute to Open Source Project for begginers</title>
       <link>https://darkodjalevski.me/posts/contribute-to-open-source/</link>
       <pubDate>Sun, 02 May 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://darkodjalevski.me/posts/contribute-to-open-source/</guid>
-      <description>What is open source software? Open source software is software with source code that anyone can inspect, modify, and enhance.
-&amp;ldquo;Source code&amp;rdquo; is the part of software that most computer users don&amp;rsquo;t ever see; it&amp;rsquo;s the code computer programmers can manipulate to change how a piece of software—a &amp;ldquo;program&amp;rdquo; or &amp;ldquo;application&amp;rdquo;—works. Programmers who have access to a computer program&amp;rsquo;s source code can improve that program by adding features to it or fixing parts that don&amp;rsquo;t always work correctly.</description>
+      <description>What is open source software? Open source software is software with source code that anyone can inspect, modify, and enhance.&#xA;&amp;ldquo;Source code&amp;rdquo; is the part of software that most computer users don&amp;rsquo;t ever see; it&amp;rsquo;s the code computer programmers can manipulate to change how a piece of software—a &amp;ldquo;program&amp;rdquo; or &amp;ldquo;application&amp;rdquo;—works. Programmers who have access to a computer program&amp;rsquo;s source code can improve that program by adding features to it or fixing parts that don&amp;rsquo;t always work correctly.</description>
     </item>
-    
     <item>
       <title>Go &amp; Apache Kafka</title>
       <link>https://darkodjalevski.me/posts/go-client-for-apache-kafka/</link>
       <pubDate>Tue, 23 Feb 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://darkodjalevski.me/posts/go-client-for-apache-kafka/</guid>
-      <description>Kafka Go Client Installation There are a few go-kafka clients but i prefer the client from confluent
-The Go client, called confluent-kafka-go, is distributed viaGitHub andgopkg.in to pin to specific versions. The Go client uses librdkafka, the C client, internally and exposes it as Go library usingcgo. No separate installation of librdkafka is required for the supported platforms (Linux (glibc and musl based), and Mac OSX).
-For other platforms the following instructions still apply: To install the Go client, first installthe C client including its development package as well as a C build toolchain including pkg-config.</description>
+      <description>Kafka Go Client Installation There are a few go-kafka clients but i prefer the client from confluent&#xA;The Go client, called confluent-kafka-go, is distributed via GitHub and gopkg.in to pin to specific versions. The Go client uses librdkafka, the C client, internally and exposes it as Go library using cgo. No separate installation of librdkafka is required for the supported platforms (Linux (glibc and musl based), and Mac OSX).&#xA;For other platforms the following instructions still apply: To install the Go client, first install the C client including its development package as well as a C build toolchain including pkg-config.</description>
     </item>
-    
     <item>
       <title>Custom API Calls params validator with go validator</title>
       <link>https://darkodjalevski.me/posts/handler-params-validate/</link>
       <pubDate>Fri, 27 Nov 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://darkodjalevski.me/posts/handler-params-validate/</guid>
-      <description>This custom validator is made with my best friend and coding buddy Gligor - link to his github account, his personal blog
-1. Custom ValidationError Structure file.  First we need to create our custom ValidationError structure  // ValidationError represents custom validation error structure // using this error when validating request body type ValidationError struct { Message string `json:&amp;#34;message&amp;#34;` Errors map[string]string `json:&amp;#34;errors,omitempty&amp;#34;` ValidationErrors validator.ValidationErrors `json:&amp;#34;-&amp;#34;` } Care we need to use go validator v10 - github.</description>
+      <description>This custom validator is made with my best friend and coding buddy Gligor - link to his github account, his personal blog&#xA;1. Custom ValidationError Structure file. First we need to create our custom ValidationError structure // ValidationError represents custom validation error structure // using this error when validating request body type ValidationError struct { Message string `json:&amp;#34;message&amp;#34;` Errors map[string]string `json:&amp;#34;errors,omitempty&amp;#34;` ValidationErrors validator.ValidationErrors `json:&amp;#34;-&amp;#34;` } Care we need to use go validator v10 - github.</description>
     </item>
-    
     <item>
       <title>Go application architecture and error handling</title>
       <link>https://darkodjalevski.me/posts/go-application-structure-error-handling/</link>
       <pubDate>Thu, 29 Oct 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://darkodjalevski.me/posts/go-application-structure-error-handling/</guid>
-      <description>In this article, we are going to explore how to structure Go application and error handling.
-1. Go application architecture /cmd  This folder contains the main application entry point files for the project, with the directory name matching the name for the binary. So for example cmd/send-email meaning that the binary we publish will be send-email.  /pkg  This folder contains code which is OK for other services to consume, this may include API clients, or utility functions which may be handy for other projects but don’t justify their own project.</description>
+      <description>In this article, we are going to explore how to structure Go application and error handling.&#xA;1. Go application architecture /cmd This folder contains the main application entry point files for the project, with the directory name matching the name for the binary. So for example cmd/send-email meaning that the binary we publish will be send-email. /pkg This folder contains code which is OK for other services to consume, this may include API clients, or utility functions which may be handy for other projects but don’t justify their own project.</description>
     </item>
-    
     <item>
       <title>Tips for learning Golang</title>
       <link>https://darkodjalevski.me/posts/tips-for-learning-go/</link>
       <pubDate>Sun, 04 Oct 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://darkodjalevski.me/posts/tips-for-learning-go/</guid>
-      <description>1. The Little Go Book The Little Go Book is old, but it&amp;rsquo;s a very good start and It&amp;rsquo;s aimed at developers who might not be quite comfortable with the idea of pointers and static typing.
-2. Don&amp;rsquo;t skip the fundamentals Go has a very readable language spec that was clearly written to be read and understood, even if you don&amp;rsquo;t have a master&amp;rsquo;s in language or compiler theory. Reading language spec document alongside Effective Go, another great resource from the Golang creators, will give you a huge boost in readiness to use the language effectively and properly.</description>
+      <description>1. The Little Go Book The Little Go Book is old, but it&amp;rsquo;s a very good start and It&amp;rsquo;s aimed at developers who might not be quite comfortable with the idea of pointers and static typing.&#xA;2. Don&amp;rsquo;t skip the fundamentals Go has a very readable language spec that was clearly written to be read and understood, even if you don&amp;rsquo;t have a master&amp;rsquo;s in language or compiler theory. Reading language spec document alongside Effective Go, another great resource from the Golang creators, will give you a huge boost in readiness to use the language effectively and properly.</description>
     </item>
-    
     <item>
       <title>About</title>
       <link>https://darkodjalevski.me/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://darkodjalevski.me/about/</guid>
-      <description>Hello there! I’m a software engineer in Skopje, Macedonia with a passion for computers, programming and designing and developing distributed systems. I have 3 years of experience as a backend engineer with a focus on distributed systems, designing APIs and microservices.
-Currently I’m working at InPlayer as Backend engineer
-In my free time, I love working on open-source software, programming in Go as well as dabbling with the latest tools and technologies, and testing new stuff out on my pet projects.</description>
+      <description>I am a Senior Software Engineer with a passion for designing and developing user-facing applications on a big scale. With a focus on distributed systems and API design, I bring over 7 years of experience in the field.&#xA;I am based in Skopje, Macedonia, and thrive in collaborative and dynamic environments. I am always eager to take on new challenges and contribute to cutting-edge projects. If you&amp;rsquo;re looking for a dedicated and experienced Senior Software Engineer, feel free to reach out to me.</description>
     </item>
-    
+    <item>
+      <title>Stack &amp; Techs</title>
+      <link>https://darkodjalevski.me/stack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://darkodjalevski.me/stack/</guid>
+      <description>Storage SQL MySQL PostgreSQL DBs ORM (GORM) NoSQL MongoDB Cache Store Memcached Redis Data Lakes Snowflake Cloud Native Storages Google Cloud Storage AWS S3 AWS Services Lambda funcs Step Functions CFLogs Athena Quicksight AWS Glue ETL Jobs and scripting ELK Stack Elasticsearch Logstash Kibana Message Brokers Apache Kafka NSQ RabbitMQ Tools Job Scheduler Temporal With Golang RPC Frameworks gRPC Architecture Microservices AWS, Docker, Kubernetes Main Programming Languages Go Strong knowledge of Go programming language, paradigms, constructs, and idioms Concurrency patterns Goroutine and channel patterns Full suite of go frameworks and code generation tools PHP CI/CD, Repo Management GitHub Actions Golang repo management (go releases,lint CI,test coverage&amp;hellip;) </description>
+    </item>
   </channel>
 </rss>

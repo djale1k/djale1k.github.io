@@ -2,13 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://darkodjalevski.me/posts/contribute-to-open-source/</loc>
-    <lastmod>2021-05-02T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://darkodjalevski.me/</loc>
-    <lastmod>2021-05-02T00:00:00+00:00</lastmod>
+    <lastmod>2024-07-08T06:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://darkodjalevski.me/posts/golang-gc-simplified/</loc>
+    <lastmod>2024-07-08T06:00:00+00:00</lastmod>
   </url><url>
     <loc>https://darkodjalevski.me/posts/</loc>
+    <lastmod>2024-07-08T06:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://darkodjalevski.me/posts/skill-sprint-php-to-go/</loc>
+    <lastmod>2021-10-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://darkodjalevski.me/posts/contribute-to-open-source/</loc>
     <lastmod>2021-05-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://darkodjalevski.me/posts/go-client-for-apache-kafka/</loc>
@@ -28,6 +34,8 @@
     <loc>https://darkodjalevski.me/blog/</loc>
   </url><url>
     <loc>https://darkodjalevski.me/series/</loc>
+  </url><url>
+    <loc>https://darkodjalevski.me/stack/</loc>
   </url><url>
     <loc>https://darkodjalevski.me/tags/</loc>
   </url>
