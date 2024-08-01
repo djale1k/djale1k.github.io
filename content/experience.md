@@ -4,7 +4,7 @@ title: "Experience"
 
 ### Glassnode
 **Senior Software Engineer Technical Lead**  
-March 2023 - Present  
+March 2023 - August 2024  
 As a Senior Software Engineer Technical Lead on the Studio team, I lead the design and development of user-facing applications by creating robust APIs and services. Recently, I spearheaded the design and implementation of a new permissions system, reworking the payments infrastructure, and enhancing the granularity of product offerings to end users.
 
 **Responsibilities:**
