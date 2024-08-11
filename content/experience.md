@@ -2,6 +2,13 @@
 title: "Experience"
 ---
 
+### Hunter.io
+**Senior Software Engineer Technical Lead**  
+August 2024  - Present
+I am joining the data team at Hunter.io, where I’ll be contributing to the development of data-driven solutions that power our innovative products. As I get familiar with the day-to-day responsibilities and projects, I’ll be updating this section with more details about my role and the impact I’m making.
+
+Stay tuned for updates!
+
 ### Glassnode
 **Senior Software Engineer Technical Lead**  
 March 2023 - August 2024  
