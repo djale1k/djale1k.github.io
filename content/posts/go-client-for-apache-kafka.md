@@ -261,7 +261,7 @@ consumer.Close()
 ```
 
 
-**Remember you always need to <code>Close()</code>after finishing with the consumer & messages.</strong>
+**Remember you always need to `Close()` after finishing with the consumer & messages.**
 
 Feel free to contact me if you have any questions about Go or Apache Kafka.
 

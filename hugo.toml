@@ -1,8 +1,10 @@
-baseurl      = "https://darkodjalevski.me/"
+baseurl      = "https://djale1k.github.io/resumev2/"
 title        = "Darko Djalevski"
-languageCode = "en-us"
+locale       = "en-us"
 theme        = "dd"
-paginate     = 10
+
+[pagination]
+pagerSize = 10
 
 [params]
 dateform        = "Jan 2, 2006"
@@ -65,7 +67,6 @@ url        = "posts/"
 identifier = "experience"
 name       = "Experience"
 url        = "experience/"
-images = ["static/images/struct.png"]
 
 # Social icons
 [[params.social]]
