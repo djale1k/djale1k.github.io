@@ -3,12 +3,20 @@ title: "Experience"
 ---
 
 ### Hunter.io
-**Senior Software Engineer** 
-August 2024  - Present
+**Senior Software Engineer**  
+August 2024 - Present
 
-I am joining the data team at Hunter.io, where I’ll be contributing to the development of data-driven solutions that power our innovative products. As I get familiar with the day-to-day responsibilities and projects, I’ll be updating this section with more details about my role and the impact I’m making.
+I build and scale the systems that ensure Hunter finds the right emails for the right people — with high accuracy, strong deliverability, and continuously improving coverage.
 
-Stay tuned for updates!
+**What I focus on:**
+- Growing Hunter's people database daily by building scalable enrichment and ingestion pipelines
+- Improving match quality between people ↔ company ↔ email identities
+- Increasing verification accuracy, especially hard-to-verify addresses like accept-all domains
+- Reducing pipeline cost and improving reliability at scale (millions of records/day)
+
+**Key achievements:**
+- Helped scale the profile database from 5M to 45M+ profiles
+- Implemented an accept-all email verification approach, significantly improving verification quality and positioning Hunter as the best accept-all verification service in 2025–2026 (recognized by Clay data tests)
 
 ### Glassnode
 **Senior Software Engineer Technical Lead**  

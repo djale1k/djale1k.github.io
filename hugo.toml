@@ -1,4 +1,4 @@
-baseurl      = "https://djale1k.github.io/resumev2/"
+baseurl      = "https://djale1k.github.io/"
 title        = "Darko Djalevski"
 locale       = "en-us"
 theme        = "dd"
