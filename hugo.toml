@@ -6,6 +6,12 @@ theme        = "dd"
 [pagination]
 pagerSize = 10
 
+# PostHog analytics. phc_ is a public client-side key, safe to commit.
+# Only injected into production builds (see layouts/partials/extra-head.html).
+[params.posthog]
+apiKey  = "phc_AdpvzCdvWoFmykWwgAvz8qQmeEkQh3Rv5gL9AFncm8sy"
+apiHost = "https://us.i.posthog.com"
+
 [params]
 dateform        = "Jan 2, 2006"
 dateformShort   = "Jan 2"
