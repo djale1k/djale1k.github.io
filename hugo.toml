@@ -21,7 +21,7 @@ footerLeft      = "<a></a>"
 footerRight     = "<a></a>"
 
 # Subtitle for home
-homeSubtitle = "Software Engineer"
+homeSubtitle = "Software Engineer | 10+ years building large-scale backend & data systems"
 
 # Set disableReadOtherPosts to true in order to hide the links to other posts.
 disableReadOtherPosts = true
