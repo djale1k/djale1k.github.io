@@ -3,8 +3,12 @@ title = "About"
 +++
 
 
-I am a Senior Software Engineer specializing in the design and development of large-scale systems and AI-driven data pipelines, ensuring seamless data ingestion, processing, and refinement for advanced analytics and machine learning. With over 9 years of experience, my expertise lies in creating scalable, user-facing applications and robust APIs, primarily using Go.
+I'm a Software Engineer with 10+ years of experience building large-scale backend, distributed, and data-intensive systems.
 
-My technical skills are deeply rooted in distributed systems and API architecture, and I am an enthusiastic participant in the open-source community, continuously exploring and contributing to cutting-edge technologies. In addition to my professional endeavors, I am adept at leading projects that require integrating complex systems to enhance functionality and performance.
+I enjoy complex engineering problems where scalability, reliability, data, and product requirements intersect. My background is primarily in backend engineering, distributed systems, APIs, data processing, and cloud infrastructure, with Go being my language of choice for many years.
 
-I thrive in collaborative and dynamic environments and am always eager to tackle new challenges in backend engineering. Based in Macedonia, I am keen on opportunities to innovate and drive success in technology projects on a global scale. Let’s connect and explore how we can create impactful solutions together!
+As I've grown as an engineer, my focus has expanded beyond implementation into shaping technical direction, simplifying complex systems, finding the right abstractions, and building solutions that hold up as products and organizations scale.
+
+I'm also increasingly interested in the practical application of AI to data-intensive problems, particularly where modern AI techniques and traditional engineering approaches can complement each other.
+
+Outside of work, you'll usually find me somewhere in the mountains. I'm a big-time hiker and off-roader, whether that's exploring with an ATV or Jeep, camping, or simply finding another excuse to spend time outdoors.
